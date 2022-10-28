@@ -225,6 +225,7 @@ async def start_command(_, message):
  )
 
 
+"""
 @app.on_callback_query(filters.regex("AsuX_home"))
 async def AsuX_home(_, CallbackQuery):
     await CallbackQuery.answer("ᴀsᴜ 𝚇 ʜᴏᴍᴇ")
@@ -261,7 +262,7 @@ async def AsuX_home(_, CallbackQuery):
         ]
     ),
  )
-
+"""
 
 
 if __name__ == "__main__":
