@@ -189,6 +189,7 @@ async def start_command(_, message):
                 parse_mode="markdown",
                 reply_markup=key,
             )
+ """       
     return await message.reply_photo(
         photo=config.START_IMG,
         caption=home_text_pm,
@@ -225,7 +226,7 @@ async def start_command(_, message):
  )
 
 
-"""
+
 @app.on_callback_query(filters.regex("AsuX_home"))
 async def AsuX_home(_, CallbackQuery):
     await CallbackQuery.answer("ᴀsᴜ 𝚇 ʜᴏᴍᴇ")
