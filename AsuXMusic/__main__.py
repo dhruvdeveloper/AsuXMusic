@@ -189,7 +189,9 @@ async def start_command(_, message):
                 parse_mode="markdown",
                 reply_markup=key,
             )
- """       
+        
+        
+"""       
     return await message.reply_photo(
         photo=config.START_IMG,
         caption=home_text_pm,
